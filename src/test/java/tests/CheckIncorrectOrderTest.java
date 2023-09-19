@@ -9,7 +9,7 @@ import utils.BaseTest;
 public class CheckIncorrectOrderTest extends BaseTest {
 
 
-    @Test //проверка  правильности номера заказа, будет выведен страница с сообщение "Такого заказа нет"
+    @Test //проверка  правильности номера заказа, будет выведена страница с сообщение "Такого заказа нет"
     public void checkIncorrectOrder() {
         Assert.assertTrue(new HomePage(driver)
                 .btnSwitchToCheckRentStatusClick()

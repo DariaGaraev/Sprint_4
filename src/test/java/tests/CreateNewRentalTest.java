@@ -52,6 +52,9 @@ public class CreateNewRentalTest extends BaseTest {
         Assert.assertTrue(new HomePage(driver)
                 .btnRentScooterButtonClick()
                 .isPageHeader());
+    }
+   @Test
+    public void createFillRental() {
 
         //Возвращаемся на главную страницу и заполняем заказ через верхнюю кнопку
         Assert.assertTrue(new HomePage(driver)
@@ -62,5 +65,6 @@ public class CreateNewRentalTest extends BaseTest {
                 .btnConfirmNewRentClick()
                 .isPageRentConfirmed());
     }
+
 
 }

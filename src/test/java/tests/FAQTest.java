@@ -38,7 +38,7 @@ public class FAQTest extends BaseTest {
         };
     }
 
-    @Test()
+    @Test
     public void faqTest() {
         try {
             new HomePage(driver)
